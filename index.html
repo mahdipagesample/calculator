@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ماشین حساب شیک</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <div class="screen">
+    <textarea name="" id="area" rows="10" disabled></textarea>
+    <textarea name="" id="result" cols="30" rows="5" disabled></textarea>
+  </div>
+  <div class="btn-container">
+    <button class="button clear">C</button>
+    <button class="button delete">✖</button>
+    <button class="button">%</button>
+    <button class="button operator typed">÷</button>
+  </div>
+  <div class="btn-container">
+    <button class="button typed num">7</button>
+    <button class="button typed num">8</button>
+    <button class="button typed num">9</button>
+    <button class="button typed operator">×</button>
+  </div>
+  <div class="btn-container">
+    <button class="button typed num">4</button>
+    <button class="button typed num">5</button>
+    <button class="button typed num">6</button>
+    <button class="button typed operator">-</button>
+  </div>
+  <div class="btn-container">
+    <button class="button typed num">1</button>
+    <button class="button typed num">2</button>
+    <button class="button typed num">3</button>
+    <button class="button typed operator">+</button>
+  </div>
+  <div class="btn-container">
+    <!-- <button data-content="-" class="button num">-/+</button> -->
+    <button class="button typed num double">0</button>
+    <button class="button typed">.</button>
+    <button class="button operator" id="equal">=</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
